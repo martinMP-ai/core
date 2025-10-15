@@ -82,6 +82,40 @@
           "remoteRoot": "/usr/src/homeassistant"
         }
       ]
+    },
+    {
+      "name": "Home Assistant: Debug Custom Integration",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "homeassistant",
+      "justMyCode": false,
+      "args": [
+        "--debug",
+        "-c",
+        "config",
+        "--log-level",
+        "DEBUG"
+      ],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/config/custom_components"
+      },
+      "preLaunchTask": "Compile English translations",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Test Hello State Integration",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "console": "integratedTerminal",
+      "args": [
+        "-vv",
+        "tests/components/hello_state/",
+        "--tb=short"
+      ],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/config/custom_components"
+      }
     }
   ]
 }

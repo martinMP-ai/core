@@ -202,6 +202,52 @@
         "reveal": "always",
         "panel": "new"
       }
+    },
+    {
+      "label": "Validate Custom Integration",
+      "detail": "Validate the Hello State custom integration.",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} -m script.hassfest --integration-path config/custom_components/hello_state",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Test Hello State Integration",
+      "detail": "Run tests for the Hello State integration.",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} -c \"import sys; sys.path.insert(0, 'config/custom_components'); from hello_state.sensor import HelloStateSensor; sensor = HelloStateSensor(); print(f'Sensor state: {sensor.state}')\"",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Home Assistant with Custom Integration",
+      "detail": "Start Home Assistant with the Hello State integration enabled.",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} -m homeassistant -c ./config --debug --log-level DEBUG",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "dependsOn": ["Compile English translations"],
+      "problemMatcher": []
     }
   ],
   "inputs": [
