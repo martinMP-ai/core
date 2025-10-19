@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "minor_version": 5,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {"created_at":"2025-10-19T03:56:27.201061+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"backup","entry_id":"01K7X9S2P11Y4JA7JDQVE7366W","minor_version":1,"modified_at":"2025-10-19T03:56:27.201062+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"system","subentries":[],"title":"Backup","unique_id":null,"version":1},
+      {"created_at":"2025-10-19T03:57:10.911752+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"sun","entry_id":"01K7X9TDBZ336YT501QWTGXD2M","minor_version":1,"modified_at":"2025-10-19T03:57:10.911753+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"import","subentries":[],"title":"Sun","unique_id":null,"version":1},
+      {"created_at":"2025-10-19T03:57:15.981332+00:00","data":{"ignore_cec":[],"known_hosts":[],"user_id":"084cf588e2a7445183be3db572cba6ba","uuid":[]},"disabled_by":null,"discovery_keys":{"zeroconf":[{"domain":"zeroconf","key":["_googlecast._tcp.local.","Google-Nest-Mini-c029803398c2a7b6507df9b95414823b._googlecast._tcp.local."],"version":1}]},"domain":"cast","entry_id":"01K7X9TJAD29ZHJG25NMYW375F","minor_version":1,"modified_at":"2025-10-19T04:02:54.459540+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"zeroconf","subentries":[],"title":"Google Cast","unique_id":"cast","version":1},
+      {"created_at":"2025-10-19T04:04:15.245494+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"bluetooth","entry_id":"01K7XA7BRDEJPMP5C9S5GB8W09","minor_version":1,"modified_at":"2025-10-19T04:04:15.245500+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"integration_discovery","subentries":[],"title":"Apple Unknown MacOS Model (Core Bluetooth)","unique_id":"00:00:00:00:00:00","version":1},
+      {"created_at":"2025-10-19T04:39:28.458719+00:00","data":{},"disabled_by":null,"discovery_keys":{"zeroconf":[{"domain":"zeroconf","key":["_meshcop._udp.local.","Tv-stue._meshcop._udp.local."],"version":1}]},"domain":"thread","entry_id":"01K7XC7VEAF72YDV2Q69H5E3HK","minor_version":1,"modified_at":"2025-10-19T04:39:28.458730+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"zeroconf","subentries":[],"title":"Thread","unique_id":null,"version":1}
+    ]
+  }
+}

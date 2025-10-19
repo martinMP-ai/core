@@ -1,0 +1,61 @@
+# Home Assistant development config with Bluetooth disabled
+homeassistant:
+  name: HA Dev (Bluetooth Disabled)
+  time_zone: Etc/UTC
+
+# Include most default_config components but exclude the problematic ones
+# Note: We manually include components instead of using default_config
+# to have better control over what gets loaded
+
+# Core components
+frontend:
+config:
+api:
+websocket_api:
+system_log:
+diagnostics:
+repairs:
+
+# File management
+file_upload:
+
+# Discovery (safe without Bluetooth)
+zeroconf:
+ssdp:
+dhcp:
+
+# Device management (safe without Bluetooth hardware access)
+device_automation:
+usb:  # This should be safe now that PyObjC is removed
+
+# Basic integrations
+person:
+zone:
+sun:
+input_boolean:
+input_number:
+input_select:
+input_text:
+input_datetime:
+input_button:
+counter:
+timer:
+schedule:
+tag:
+system_health:
+analytics:
+application_credentials:
+backup:
+
+# Serve on non-default port
+http:
+  server_port: 8124
+
+# Reduce logging verbosity  
+logger:
+  default: warning
+
+# Include standard config files (without duplicating above)
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 11,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {"area_id":null,"config_entries":["01K7X9S2P11Y4JA7JDQVE7366W"],"config_entries_subentries":{"01K7X9S2P11Y4JA7JDQVE7366W":[null]},"configuration_url":"homeassistant://config/backup","connections":[],"created_at":"2025-10-19T03:56:27.203147+00:00","disabled_by":null,"entry_type":"service","hw_version":null,"id":"d6fdb9723b5ab029376b338f56f1cfc3","identifiers":[["backup","backup_manager"]],"labels":[],"manufacturer":"Home Assistant","model":"Home Assistant Backup","model_id":null,"modified_at":"2025-10-19T03:56:27.203166+00:00","name_by_user":null,"name":"Backup","primary_config_entry":"01K7X9S2P11Y4JA7JDQVE7366W","serial_number":null,"sw_version":"2025.8.0.dev0","via_device_id":null},
+      {"area_id":null,"config_entries":["01K7X9TDBZ336YT501QWTGXD2M"],"config_entries_subentries":{"01K7X9TDBZ336YT501QWTGXD2M":[null]},"configuration_url":null,"connections":[],"created_at":"2025-10-19T03:57:10.912481+00:00","disabled_by":null,"entry_type":"service","hw_version":null,"id":"c59bf0d79fd5628decdd91a82c0e0dc1","identifiers":[["sun","01K7X9TDBZ336YT501QWTGXD2M"]],"labels":[],"manufacturer":null,"model":null,"model_id":null,"modified_at":"2025-10-19T03:57:10.912500+00:00","name_by_user":null,"name":"Sun","primary_config_entry":"01K7X9TDBZ336YT501QWTGXD2M","serial_number":null,"sw_version":null,"via_device_id":null},
+      {"area_id":null,"config_entries":["01K7X9TJAD29ZHJG25NMYW375F"],"config_entries_subentries":{"01K7X9TJAD29ZHJG25NMYW375F":[null]},"configuration_url":null,"connections":[],"created_at":"2025-10-19T03:57:15.995847+00:00","disabled_by":null,"entry_type":null,"hw_version":null,"id":"bd9d7ba106276d8ac01166386f6a5689","identifiers":[["cast","c029803398c2a7b6507df9b95414823b"]],"labels":[],"manufacturer":"Google Inc.","model":"Google Nest Mini","model_id":null,"modified_at":"2025-10-19T03:57:15.995876+00:00","name_by_user":null,"name":"Soveværelse ","primary_config_entry":"01K7X9TJAD29ZHJG25NMYW375F","serial_number":null,"sw_version":null,"via_device_id":null}
+    ],
+    "deleted_devices": []
+  }
+}

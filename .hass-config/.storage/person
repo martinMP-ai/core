@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "martinpark",
+        "name": "martinpark",
+        "user_id": "62895ee6591c433187f6cedc2d153463",
+        "device_trackers": []
+      },
+      {
+        "id": "martin",
+        "name": "martin",
+        "user_id": "b460192bb0f14b6b9d7303bc50a1554b",
+        "device_trackers": []
+      }
+    ]
+  }
+}

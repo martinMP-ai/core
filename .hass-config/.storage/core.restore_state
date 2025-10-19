@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"event.backup_none","state":"unknown","attributes":{"event_types":["completed","failed","in_progress"],"event_type":null,"friendly_name":"Backup None"},"last_changed":"2025-10-19T04:02:54.477782+00:00","last_reported":"2025-10-19T04:02:54.477782+00:00","last_updated":"2025-10-19T04:02:54.477782+00:00","context":{"id":"01K7XA4WWDAVEF1A07ZX1Y0ZG2","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "last_event_type": null,
+        "last_event_attributes": null
+      },
+      "last_seen": "2025-10-19T05:47:54.608564+00:00"
+    },
+    {
+      "state": {"entity_id":"person.martinpark","state":"unknown","attributes":{"editable":true,"id":"martinpark","device_trackers":[],"user_id":"62895ee6591c433187f6cedc2d153463","friendly_name":"martinpark"},"last_changed":"2025-10-19T04:04:34.863692+00:00","last_reported":"2025-10-19T04:04:34.863692+00:00","last_updated":"2025-10-19T04:04:34.863692+00:00","context":{"id":"01K7XA7YXF5HD6BPHD0KNDKTQP","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-10-19T05:47:54.608564+00:00"
+    },
+    {
+      "state": {"entity_id":"person.martin","state":"unknown","attributes":{"editable":true,"id":"martin","device_trackers":[],"user_id":"b460192bb0f14b6b9d7303bc50a1554b","friendly_name":"martin"},"last_changed":"2025-10-19T04:25:18.274960+00:00","last_reported":"2025-10-19T04:25:18.274960+00:00","last_updated":"2025-10-19T04:25:18.274960+00:00","context":{"id":"01K7XBDX62Z2EE9YXNY3SEGDF0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-10-19T05:47:54.608564+00:00"
+    }
+  ]
+}

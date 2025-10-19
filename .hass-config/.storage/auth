@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth",
+  "data": {
+    "users": [
+      {
+        "id": "7f83aa53547a4c11a4cf88a3b1cbe588",
+        "group_ids": [
+          "system-read-only"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Content",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "084cf588e2a7445183be3db572cba6ba",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Cast",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "62895ee6591c433187f6cedc2d153463",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": true,
+        "is_active": true,
+        "name": "martinpark",
+        "system_generated": false,
+        "local_only": false
+      },
+      {
+        "id": "13365cdabf7044dd8d764cbe6511c1eb",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "martinpark",
+        "system_generated": false,
+        "local_only": false
+      },
+      {
+        "id": "b4db52427eb641e687a5b77524c2272c",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "martinpark",
+        "system_generated": false,
+        "local_only": false
+      },
+      {
+        "id": "498964fcb761429aab2ad282d1e81b63",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "martinpark",
+        "system_generated": false,
+        "local_only": false
+      },
+      {
+        "id": "8a38374bc6fe4116a65a5bb7e9833a3e",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "martinpark",
+        "system_generated": false,
+        "local_only": false
+      },
+      {
+        "id": "b460192bb0f14b6b9d7303bc50a1554b",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "martin",
+        "system_generated": false,
+        "local_only": false
+      },
+      {
+        "id": "08c3508198b348b0907b71922f030d5a",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "martin",
+        "system_generated": false,
+        "local_only": false
+      },
+      {
+        "id": "0908eaf5b2cb46c6af77fb4e7a5661f4",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "martin",
+        "system_generated": false,
+        "local_only": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "system-admin",
+        "name": "Administrators"
+      },
+      {
+        "id": "system-users",
+        "name": "Users"
+      },
+      {
+        "id": "system-read-only",
+        "name": "Read Only"
+      }
+    ],
+    "credentials": [
+      {
+        "id": "4902ec8eff7c4fc7857db1809b6c40c8",
+        "user_id": "62895ee6591c433187f6cedc2d153463",
+        "auth_provider_type": "homeassistant",
+        "auth_provider_id": null,
+        "data": {
+          "username": "martinpark"
+        }
+      },
+      {
+        "id": "828ec2b917d34cb5af2b1ab85251a325",
+        "user_id": "b460192bb0f14b6b9d7303bc50a1554b",
+        "auth_provider_type": "homeassistant",
+        "auth_provider_id": null,
+        "data": {
+          "username": "martin"
+        }
+      }
+    ],
+    "refresh_tokens": [
+      {
+        "id": "162534f1bc4a4df591a6b858c836a782",
+        "user_id": "7f83aa53547a4c11a4cf88a3b1cbe588",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2025-10-19T04:02:54.249144+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "379ba90d20636385671e4ffab4bc4441fe2b88adf9a421067eeb6bc6bb452498dd9c3d528530252efb59d9243877874c42d1e391933fc669d46b5176e8cec02c",
+        "jwt_key": "df1f7ba71a0ec5107a9dd744d312988ec15c370fa7710d380682c5f36bf96328d48481eb0585026982407a5340c74da30c01927d6c817a1a16661a5d02616129",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "expire_at": null,
+        "credential_id": null,
+        "version": "2025.8.0.dev0"
+      },
+      {
+        "id": "56d48893e54049e2a0d0cdf35a389e5f",
+        "user_id": "084cf588e2a7445183be3db572cba6ba",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2025-10-19T04:02:54.459573+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "bef0e2ae1d66b995b14ba88e83e10f4d8baa6cf01a59507df6f397dccb49a1c61f6db6f0bc899bb6c3a6c86ce6d2be1c31432b59db6ce654404d9db1f6a610f2",
+        "jwt_key": "11c063e6b36878ff493356ebd02f1df496ac518ab8c4ccbadf7b4d94fb48ae6964dd7742ba2a2856c409ae9aa4cc1ef7fbeaec76a95a3110309af46aa00dca75",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "expire_at": null,
+        "credential_id": null,
+        "version": "2025.8.0.dev0"
+      }
+    ]
+  }
+}
